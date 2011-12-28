@@ -1,10 +1,9 @@
 #include <iostream>
 using namespace std;
 
-int main()
-{
-  cout << "Hello, World!" << endl;
-  cout << "Added from Eclipse test" << endl;
-  cout << "Added from Alternate" << endl;
-  return 0;
+int main() {
+	for (int i = 0; i < 3; i++) {
+		cout << "Hello, World!" << endl;
+	}
+	return 0;
 }
